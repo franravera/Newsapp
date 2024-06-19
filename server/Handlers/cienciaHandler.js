@@ -11,5 +11,5 @@ const handleScienceNews = async (req, res) => {
         res.status(500).json({ error: 'Error handling science news request' });
     }
 };
-
+//AAA
 module.exports = { handleScienceNews };
